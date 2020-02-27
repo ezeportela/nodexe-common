@@ -7,6 +7,8 @@ const errorHandler = require('./src/utils/errorHandler');
 const requireDependency = require('./src/utils/requireDependency');
 const Timespent = require('./src/utils/timespent');
 
+const {getEnv} = require('./src/utils');
+
 module.exports = {
   CacheService,
   FileService,
@@ -16,4 +18,6 @@ module.exports = {
   errorHandler,
   requireDependency,
   Timespent,
+
+  getEnv,
 };
