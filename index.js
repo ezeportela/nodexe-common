@@ -9,6 +9,8 @@ const Timespent = require('./src/utils/timespent');
 
 const {getEnv} = require('./src/utils');
 
+const validateTokenProps = require('./src/middlewares/validateTokenProps');
+
 module.exports = {
   CacheService,
   FileService,
@@ -20,4 +22,6 @@ module.exports = {
   Timespent,
 
   getEnv,
+
+  validateTokenProps,
 };
