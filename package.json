@@ -1,6 +1,6 @@
 {
   "name": "@nodexe/common",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A powerful common tools library",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ezeportela/-nodexe-common.git"
+    "url": "git+https://github.com/ezeportela/nodexe-common.git"
   },
   "keywords": [
     "powerful",
@@ -23,11 +23,12 @@
   "author": "Ezequiel Portela <eportelab@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ezeportela/-nodexe-common/issues"
+    "url": "https://github.com/ezeportela/nodexe-common/issues"
   },
-  "homepage": "https://github.com/ezeportela/-nodexe-common#readme",
+  "homepage": "https://github.com/ezeportela/nodexe-common#readme",
   "dependencies": {
     "js-yaml": "^3.13.1",
+    "jwt-decode": "^2.2.0",
     "moment": "^2.24.0",
     "node-localstorage": "^2.1.5"
   },
