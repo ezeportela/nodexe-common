@@ -1,6 +1,6 @@
 {
   "name": "@nodexe/common",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A powerful common tools library",
   "main": "index.js",
   "scripts": {
