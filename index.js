@@ -7,7 +7,7 @@ const errorHandler = require('./src/utils/errorHandler');
 const requireDependency = require('./src/utils/requireDependency');
 const Timespent = require('./src/utils/timespent');
 
-const {getEnv} = require('./src/utils');
+const {getEnv, getEnvParam} = require('./src/utils');
 
 const validateTokenProps = require('./src/middlewares/validateTokenProps');
 
@@ -22,6 +22,7 @@ module.exports = {
   Timespent,
 
   getEnv,
+  getEnvParam,
 
   validateTokenProps,
 };
