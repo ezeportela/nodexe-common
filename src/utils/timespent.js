@@ -13,9 +13,13 @@ class Timespent {
     this.endts = moment();
   }
 
-  getDiff(log, data) {
+  getDiff() {
+    return this.endts.diff(this.startts);
+  }
+
+  getDiffString(log, data) {
     try {
-      const duration = this.endts.diff(this.startts);
+      const duration = this.getDiff();
       log(`[${data}] timespent ${this.title}: ${duration}ms`);
     } catch (err) {
       return;
